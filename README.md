@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-O **Portal de Notícias** Este projeto visa aplicar e aprimorar conhecimentos técnicos em Redis através da simulação de um portal de notícias. Utilizando Docker para gerenciar serviços essenciais como MySQL e Redis, o projeto demonstra como o Redis pode ser utilizado para retornar notícias de forma rápida e eficiente, melhorando significativamente o desempenho do sistema ao armazenar em cache as consultas mais frequentes.
+Este projeto visa aplicar e aprimorar conhecimentos técnicos em Redis através da simulação de um portal de notícias. Utilizando Docker para gerenciar serviços essenciais como MySQL e Redis, o projeto demonstra como o Redis pode ser utilizado para retornar notícias de forma rápida e eficiente, melhorando significativamente o desempenho do sistema ao armazenar em cache as consultas mais frequentes.
 
 ## Tecnologias Utilizadas
 
