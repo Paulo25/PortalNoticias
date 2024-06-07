@@ -10,8 +10,8 @@ npm install
 chmod -R 777 storage/
 
 # Copiar e configurar o arquivo .env
-cp /var/www/html/.env.example /var/www/html/.env
-php artisan key:generate
+#cp /var/www/html/.env.example /var/www/html/.env
+#php artisan key:generate
 
 # Atualizar configurações do Redis no .env (caso necessário)
 sed -i 's/REDIS_HOST=127.0.0.1/REDIS_HOST=redis/' .env
