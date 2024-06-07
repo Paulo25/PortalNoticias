@@ -17,6 +17,8 @@ RUN apt update && \
     && docker-php-ext-install mysqli pdo pdo_mysql -j$(nproc) gd zip \
     && pecl install redis \
     && docker-php-ext-enable redis \
+    && pecl install predis \
+    && docker-php-ext-enable predis \
     && a2enmod rewrite headers proxy ssl proxy_http http2 alias \
     && chmod 755 /usr/local/bin/custom-entrypoint \
     && cd /usr/local/bin \
@@ -28,3 +30,4 @@ RUN apt update && \
 ENTRYPOINT ["custom-entrypoint"]
 
 WORKDIR /var/www/html
+

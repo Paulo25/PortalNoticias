@@ -20,6 +20,7 @@ sed -i 's/REDIS_PORT=6379/REDIS_PORT=6379/' .env
 # Rodar as migrações do banco de dados
 php artisan migrate
 # php artisan db:seed
+#php artisan db:seed --class=NoticiaSeeder
 
 # Definir permissões para o diretório storage novamente
 chmod -R 777 /var/www/html/storage/
