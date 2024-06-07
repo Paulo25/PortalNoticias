@@ -37,3 +37,9 @@ Para executar o projeto, é necessário ter o Docker configurado e um terminal b
 Feito isso, aguarde enquanto o projeto é iniciado e todos os scripts necessários são executados. Se desejar popular as tabelas do banco de dados com dados iniciais, execute o comando abaixo:
 ```bash
 php artisan db:seed
+
+# Teste
+![image](https://github.com/Paulo25/PortalNoticias/assets/29576745/29a3a217-e1bb-4d00-87c9-d3dd3862181d)
+![image](https://github.com/Paulo25/PortalNoticias/assets/29576745/d2ebbb34-20f9-43ff-92a2-013c49bc8675)
+
+
